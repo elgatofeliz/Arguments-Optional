@@ -20,21 +20,21 @@ If either argument isn't a valid number, return undefined.
 
 ### Code
 
-function addTogether() {
-
-const [first, second] = arguments
-
-function addNumbers (second){
-  if(typeof second === "number"){
-    return first+second
-  }
-}
-
-if(typeof first === "number"){
-  if(arguments.length === 1) return addNumbers
-  if(arguments.length === 2) return addNumbers(second)
-}
-
-}
-
-addTogether(2,3);
+    function addTogether() {
+    
+    const [first, second] = arguments
+    
+    function addNumbers (second){
+      if(typeof second === "number"){
+        return first+second
+      }
+    }
+    
+    if(typeof first === "number"){
+      if(arguments.length === 1) return addNumbers
+      if(arguments.length === 2) return addNumbers(second)
+    }
+    
+    }
+    
+    addTogether(2,3);
